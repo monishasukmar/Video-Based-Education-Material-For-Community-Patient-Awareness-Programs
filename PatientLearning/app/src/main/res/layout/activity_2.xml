@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddPatients">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp">
+
+        <!--Table heading-->
+
+        <TableRow
+            android:background="#71C174">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/id1"
+                android:text="Enter"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:layout_weight="2"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Patient Details"
+                android:id="@+id/id2"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:layout_weight="2"
+                android:layout_gravity="center_horizontal"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtText1"
+                android:text=""
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Conact No"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:layout_weight="2"
+                android:layout_gravity="center_horizontal"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtText2"
+                android:text=""
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:layout_weight="4"
+                android:layout_gravity="center_horizontal"/>
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="150dp"
+        android:text="Add" />
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="150dp"
+        android:text="Next" />
+
+</LinearLayout>

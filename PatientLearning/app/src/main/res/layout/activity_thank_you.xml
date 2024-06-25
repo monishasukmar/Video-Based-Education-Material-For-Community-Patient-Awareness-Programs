@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThankYou">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_height="300dp"
+
+                android:src="@drawable/thanks"></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="Your data has been recorded"
+                android:textSize="40dp"
+                android:textColor="#00F"
+                ></TextView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Start new entry"
+                android:textSize="30dp"
+                android:background="#00F"
+                android:layout_margin="30dp"
+                android:textColor="#FFF"
+                android:id="@+id/butstart"
+                ></Button>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

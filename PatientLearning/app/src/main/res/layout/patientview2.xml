@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="10dp"
+
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="40dp"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtsubcode"
+            android:text="Subject code"
+            />
+
+        <TextView
+            android:layout_marginLeft="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtsubname"
+            android:text="Subject Name"
+            android:textSize="20dp"
+            android:layout_marginBottom="30dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Score: 0"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:id="@+id/txtscore"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Score: 0"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#00F"
+            android:textSize="25dp"
+            android:id="@+id/txtscore2"
+            ></TextView>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00F"
+            android:textColor="#FFF"
+            android:id="@+id/butstart"
+            android:text="Start Post-Test"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            ></Button>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
